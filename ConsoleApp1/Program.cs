@@ -64,9 +64,10 @@ namespace ConsoleApp1
 			return result;
 		}
 
+		//using System.ValueTuple
 		private static (int UserId, string Name, DateTime CreateTime) getUserInfoNew()
 		{
-			return (2, "郑少宝", DateTime.Now);
+			return (2, "路飞", DateTime.Now);
 		}
 
 		private static (int, string, DateTime) getUserInfoNew2()
